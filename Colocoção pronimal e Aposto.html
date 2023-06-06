@@ -1,0 +1,2630 @@
+<doctype html>
+html>
+<body>
+<meta charset="UTF-8">
+<html lang="pt-br">
+
+<legend>  </legend>
+
+
+<title>  </title>
+
+
+
+<head>
+    <style>
+
+
+
+   html {
+  background-color: #F5F5F5;
+   }
+
+
+
+   .oculta {
+  display: none;
+  }
+
+
+
+
+
+
+
+
+  .barra-superior {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: aquamarine;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .barra-superior h1 {
+    margin: 0;
+    font-size: 24px;
+    width: 200px;
+    margin-left: 530px;
+    white-space: nowrap;
+    color: SaddleBrown;
+    font-family: "Montserrat", sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 5px;
+    color: #333333;
+    text-transform: uppercase;
+  }
+
+
+
+
+
+.pesquisa {
+position: fixed;
+}
+
+
+
+.busca {
+background-image: url("");
+font-size:14px;
+margin-left:1250px;
+margin-top: -10.5px;
+border-radius:80px;
+border:solid 2px;
+width: 250px;
+padding: 15px 15px 15px 15px;
+background-color: GhostWhite;
+}
+
+
+
+.lupa {
+font-size:60px;
+}
+
+
+
+
+
+
+
+
+.categories {
+list-style-type: none;
+margin: 0;
+padding: 0;
+background-color: #f1f1f1;
+position: fixed;
+}
+
+
+.categories li {
+display: inline;
+}
+
+
+.categories li a {
+display:block;
+padding: 10px 30px;
+text-decoration: none;
+color: #333;
+}
+
+
+.categories li a:hover {
+background-color: #ddd;
+}
+
+
+
+.categories li::placeholder {
+font-size: 23px;
+}
+
+
+
+
+
+.lista {
+position: fixed;
+margin-top: -27px;
+margin-left: -10px;
+border: solid 2px;
+padding: 24.2px 15px 32px 15px;
+}
+
+
+
+.lista summary:hover {
+transform: scale(1.1);
+transition: transform 0.3s ease;
+}
+
+
+
+.materias {
+font-size: 19.8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.linguap {
+font-size: 7.5px;
+margin-left: 300px;
+margin-top: -16px;
+text-decoration: underline;
+font-family: helvetica;
+}
+
+
+
+.borda1 {
+width: 700px;
+margin-left: 250px;
+border: 1px solid #000;
+border-radius: 10px;
+padding: 10px;
+margin-top: 15px;
+background-color: rgba(255, 255, 255, 0);
+}
+
+
+
+.subtitulo {
+font-size: 24px;
+color: grey11;
+margin-top: -12px;
+}
+
+
+
+
+
+
+
+
+
+
+.perfil {
+margin-top: 4px;
+}
+
+
+.perfil img {
+border-radius: 90px;
+margin-top: -40px;
+margin-left: 4px;
+}
+
+
+.perfil h1 {
+font-size: 13px;
+margin-left: 40.5px;
+margin-top: -38.5px;
+color: DimGray;
+}
+
+
+.perfil2 {
+font-size: 9px;
+margin-left: 41px;
+margin-top: -35px;
+color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+.texto1 {
+font-size: 11.9px;
+font-family: arial;
+margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.anuncio1 {
+margin-left: 1100px;
+margin-top: -5120px;
+}
+
+
+.anuncio1 img {
+border-radius: 7px;
+}
+
+
+.anuncio1 img:hover {
+filter: brightness(80%);
+}
+
+
+
+
+.publicidade1 h1 {
+font-size: 10px;
+margin-left: 1216px;
+margin-top: -320;
+color: gray;
+font-family: helvetica;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.anuncio2 {
+margin-left: 1100px;
+margin-top: 1100px;
+}
+
+
+.anuncio2 img {
+border-radius: 7px;
+}
+
+
+
+.anuncio2 img:hover {
+filter: brightness(80%);
+}
+
+
+
+
+.publicidade2 h1 {
+font-size: 10px;
+margin-left: 1218px;
+margin-top: -321px;
+color: gray;
+font-family: helvetica;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.anuncio3 {
+margin-left: 1100px;
+margin-top: 1000px;
+}
+
+
+.anuncio3 img {
+border-radius: 7px;
+}
+
+
+.anuncio3 img:hover {
+filter: brightness(80%);
+}
+
+
+
+
+.publicidade3 h1 {
+font-size: 10px;
+margin-left: 1218px;
+margin-top: -321px;
+color: gray;
+font-family: helvetica;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.anuncio4 {
+margin-left: 1100px;
+margin-top: 1000px;
+}
+
+
+.anuncio4 img {
+border-radius: 7px;
+}
+
+
+.anuncio4 img:hover {
+filter: brightness(80%);
+}
+
+
+
+
+.publicidade4 h1 {
+font-size: 10px;
+margin-left: 1218px;
+margin-top: -321px;
+color: gray;
+font-family: helvetica;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.anuncio5 {
+margin-left: 1100px;
+margin-top: 1050px;
+}
+
+
+.anuncio5 img {
+border-radius: 7px;
+}
+
+
+.anuncio5 img:hover {
+filter: brightness(80%);
+}
+
+
+
+
+.publicidade5 h1 {
+font-size: 10px;
+margin-left: 1218px;
+margin-top: -321px;
+color: gray;
+font-family: helvetica;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.proclise {
+margin-top: 52px;
+font-size: 17.5px;
+}
+
+
+
+
+
+.proclisetexto {
+font-size: 11.9px;
+font-family: arial;
+}
+
+
+
+
+
+
+
+
+
+
+
+.mesoclise {
+margin-top: 52px;
+font-size: 17.5;
+}
+
+
+
+
+
+.mesoclisetexto {
+font-size: 11.9px;
+font-family: arial;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.enclise {
+margin-top: 52px;
+font-size: 17.5px;
+}
+
+
+
+
+
+.enclisetexto {
+font-size: 11.9px;
+font-family: arial;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logo-quiz {
+margin-top: 52px;
+font-size: 19px;
+text-align: center;
+}
+
+
+
+
+
+
+
+.quiz-introduçao {
+font-size: 12px;
+font-family: arial;
+margin-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.C-pergunta-1 h1 {
+font-family: helvetica;
+font-size: 17.5px;
+}
+
+
+
+
+
+
+
+.caixinha-de-resposta1 {
+border: 2px solid;
+width: 700px;
+font-size: 19.2px;
+border-radius: 10px;
+content: none;
+text-align: center;
+padding: 6px;
+background-color: DeepSkyBlue;
+}
+
+
+
+
+
+
+.caixinha-de-resposta1 h1 {
+font-size: 18px;
+text-align: left;
+margin-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.C-pergunta-2 h1 {
+font-family: helvetica;
+font-size: 17.5px;
+}
+
+
+
+
+
+
+
+
+.caixinha-de-resposta2 {
+border: 2px solid;
+width: 700px;
+font-size: 19.2px;
+border-radius: 10px;
+content: none;
+text-align: center;
+padding: 6px;
+background-color: DeepSkyBlue;
+}
+
+
+
+
+
+
+.caixinha-de-resposta2 h1 {
+font-size: 18px;
+text-align: left;
+margin-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.C-pergunta-3 h1 {
+font-family: helvetica;
+font-size: 17.5px;
+}
+
+
+
+
+
+
+
+
+.caixinha-de-resposta3 {
+border: 2px solid;
+width: 700px;
+font-size: 19.2px;
+border-radius: 10px;
+content: none;
+text-align: center;
+padding: 6px;
+background-color: deepskyblue;
+}
+
+
+
+
+
+
+.caixinha-de-resposta3 h1 {
+font-size: 18px;
+text-align: left;
+margin-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.C-pergunta-4 h1 {
+font-family: helvetica;
+font-size: 17.5px;
+}
+
+
+
+
+
+
+
+
+
+.caixinha-de-resposta4 {
+border: 2px solid;
+width: 700px;
+font-size: 19.2px;
+border-radius: 10px;
+content: none;
+text-align: center;
+padding: 6px;
+background-color: deepskyblue;
+}
+
+
+
+
+
+
+.caixinha-de-resposta4 h1 {
+font-size: 18px;
+text-align: left;
+margin-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.titulo-aposto {
+font-size: 24px;
+color: grey11;
+margin-top: -12px;
+}
+
+
+
+
+
+
+
+
+
+
+.texto-aposto {
+font-size: 12.2px;
+font-family: arial;
+margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+.exemplo-aposto {
+font-size: 12px;
+font-family: arial;
+}
+
+
+
+
+
+
+
+
+
+
+
+.logo-quiz-aposto {
+margin-top: 52px;
+font-size: 19px;
+text-align: center;
+}
+
+
+
+
+
+
+
+.frasesinha-quiz-aposto {
+font-size: 12px;
+font-family: arial;
+margin-top: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.final-da-pagina {
+font-size: 12.2px;
+font-family: arial;
+margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+background-color: MediumPurple;
+width: 1519.1px;
+margin-top: 1120px;
+margin-left: -7.6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.logo-colabora {
+font-size: 16.5px;
+margin-left: 7px;
+}
+
+
+
+
+
+
+
+
+.colaborador-1 img {
+border-radius: 90px;
+margin-bottom: 20px;
+margin-left: 10px;
+margin-top: -10px;
+}
+
+
+
+.colaborador-1 h1 {
+font-size: 14.5px;
+margin-left: 45px;
+margin-top: -40px;
+}
+
+
+
+
+
+
+
+
+
+.colaborador-2 img {
+border-radius: 90px;
+margin-bottom: 20px;
+margin-left: 10px;
+}
+
+
+
+.colaborador-2 h1 {
+font-size: 14.5px;
+margin-left: 45px;
+margin-top: -40px;
+}
+
+
+
+
+
+
+
+
+
+
+.colaborador-3 img {
+border-radius: 90px;
+margin-bottom: 20px;
+margin-left: 10px;
+}
+
+
+
+.colaborador-3 h1 {
+font-size: 14.5px;
+margin-left: 45px;
+margin-top: -40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.colaborador-4 img {
+border-radius: 90px;
+margin-bottom: 20px;
+margin-left: 10px;
+}
+
+
+
+.colaborador-4 h1 {
+font-size: 14.5px;
+margin-left: 45px;
+margin-top: -40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logo-alunos-unidos h1 {
+white-space: nowrap;
+color: SaddleBrown;
+font-family: "Montserrat", sans-serif;
+font-size: 36px;
+font-weight: bold;
+text-align: center;
+letter-spacing: 5px;
+color: #333333;
+text-transform: uppercase;
+position: absolute; 
+top: 5850px; 
+left: 580px;
+}
+
+
+
+
+
+
+
+
+
+
+.fim {
+font-size:9.5px;
+margin-top: -180px;
+font-family:times new roman;
+text-align: right;
+margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+</head>
+   </style>
+
+
+
+
+
+
+<script>
+  window.addEventListener("scroll", function() {
+    var barraSuperior = document.getElementById("barra-superior");
+    if (window.pageYOffset > 200) {
+      barraSuperior.classList.add("oculta");
+    } else {
+      barraSuperior.classList.remove("oculta");
+    }
+  });
+</script>
+
+
+
+
+<script>
+  window.addEventListener("scroll", function() {
+    var pesquisa = document.getElementById("pesquisa");
+    if (window.pageYOffset > 200) {
+      pesquisa.classList.add("oculta");
+    } else {
+      pesquisa.classList.remove("oculta");
+    }
+  });
+</script>
+
+
+
+
+<script>
+  window.addEventListener("scroll", function() {
+    var details = document.getElementById("details");
+    if (window.pageYOffset > 200) {
+      details.classList.add("oculta");
+    } else {
+      details.classList.remove("oculta");
+    }
+  });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+     details
+    document.getElementById('myDetails').addEventListener('click', function() {
+      this.open = !this.open;
+    });
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<article>
+
+
+<div id="barra-superior" class="barra-superior">
+<h1>Alunos Unidos</h1>
+</div>
+
+
+</article>
+
+
+
+
+
+
+
+
+
+<article>
+
+
+<div id="pesquisa" class="pesquisa">
+<input type="text" class="busca" placeholder=" 𝙋𝙚𝙨𝙦𝙪𝙞𝙨𝙚 𝙖𝙦𝙪𝙞"/>
+</div>
+
+
+</article>
+
+
+
+
+
+<article>
+
+
+<div id="details" class="details">
+
+
+<details class="lista">
+
+<summary class="materias">Materias</summary>
+
+ <ul class="categories">
+      <li><a href="https://www.gramaticaonline.com.br">Portugues</a></li>
+                  <hr>
+      <li><a href=" https://www.redacaonota1000.com.br">Redação</a></li>
+                  <hr>
+      <li><a href="https://www.mundodafisica.com.br">Ciências</a></li>
+                  <hr>
+      <li><a href="https://brasilescola.uol.com.br/geografia">Geografia</a></li>
+                  <hr>
+      <li><a href="https://historiadigital.org/">História</a></li>
+                 <hr>
+      <li><a href="https://www.mathway.com">Matemática</a></li>
+                 <hr>
+ </ul>
+
+</details>
+
+
+</div>
+
+
+</article>
+
+
+
+
+<br><br><br><br>
+
+
+
+
+<article>
+
+
+<div class="linguap">
+<h1>MATERIA:LÍNGUA PORTUGUESA</h1>
+</div>
+
+
+</article>
+
+
+
+
+
+
+
+
+
+
+<fieldset class="borda1">
+
+
+
+
+<article>
+
+
+<div class="subtitulo">
+<h1>Colocação Pronominal e Aposto</h1>
+</div>
+
+
+</article>
+
+
+
+
+<br>
+
+
+
+
+<article>
+
+
+<div class="perfil">
+<img src="https://avatars.githubusercontent.com/u/129466810?s=400&u=221157d309c4a01d84c446948bce3084f23f70b2&v=4" heigth="30" width="30"></img>
+
+<h1>Construído por inéditos conteúdos</h1>
+</div>
+
+
+</article>
+
+
+
+<article>
+
+
+<div class="perfil2">
+<h1>Programador e Aluno da Adventista</h1>
+</div>
+
+
+</article>
+
+
+
+
+
+<article>
+
+
+<div class="texto1">
+<h1>A colocação pronominal, um fenômeno linguístico fascinante, revela a posição dos pronomes oblíquos átonos - me, nos, te, vos, se, o(s), a(s), lhe(s) - em relação ao verbo, manifestando-se através da próclise, da mesóclise e da ênclise.</h1>
+
+<h1>Ao adentrar no intricado universo dessas regras, cabe ressaltar que a prioridade máxima é dada à próclise. Caso nenhuma das circunstâncias atenda aos critérios, a ênclise prevalece. É importante salientar que a mesóclise se restringe a verbos nos tempos futuros do presente e do pretérito.</h1>
+</div>
+
+
+</article>
+
+
+
+
+
+
+
+<article>
+
+
+<div class="proclise">
+<h1>𝗣𝗿𝗼́𝗰𝗹𝗶𝘀𝗲</h1>
+</div>
+
+
+</article>
+
+
+
+
+
+
+<article>
+
+
+<div class="proclisetexto">
+
+<h1> A próclise ocorre quando o pronome oblíquo átono é colocado antes do verbo. Veja os exemplos abaixo:</h1>
+
+<br>
+
+
+<h1>Quando a frase começa com palavras ou expressões que exigem a próclise:
+  <br><br><br>
+- "Me esqueci do seu aniversário."
+  <br><br>
+- "Me falaram sobre você."
+  <br><br>
+- "Me disseram que você chegaria tarde."</h1>
+
+<br>
+
+
+<h1>A próclise é utilizada nessas situações para garantir a correta ênfase e coerência na estrutura da frase. É importante observar que a próclise também pode ocorrer em outras formas verbais, não apenas no presente do indicativo.</h1>
+</div>
+
+
+</article>
+
+
+
+
+
+
+
+<article>
+
+
+<div class="mesoclise">
+<h1>𝗠𝗲𝘀𝗼́𝗰𝗹𝗶𝘀𝗲</h1>
+</div>
+
+
+</article>
+
+
+
+
+
+
+
+
+<article>
+
+
+<div class="mesoclisetexto">
+<h1>A mesóclise é uma forma formal de colocação pronominal em que o pronome é colocado no meio do verbo. Veja alguns exemplos curtos:</h1>
+
+<br>
+
+
+<h1>A mesóclise ela ocorre apenas no futuro do presente e no futuro do pretérito
+  <br><br><br>
+- "Dar-lhe-ei uma resposta."
+  <br><br>
+- "Dir-lhe-ia a verdade."
+ <br><br>
+- "Enviar-lhe-ia um convite."</h1>
+
+<br>
+
+
+<h1>Ao utilizar a mesóclise corretamente, adicionamos um toque de elegância e formalidade ao discurso. No entanto, é importante ressaltar que seu uso é mais comum em contextos literários ou formais.</h1>
+</div>
+
+
+
+</article>
+
+
+
+
+
+
+
+
+<article>
+
+
+<div class="enclise">
+<h1>𝗘̂𝗻𝗰𝗹𝗶𝘀𝗲</h1>
+</div>
+
+
+</article>
+
+
+
+
+
+
+
+
+
+<article>
+
+
+<div class="enclisetexto">
+<h1>Na enclise, o pronome oblíquo é colocado depois do verbo. Essa colocação é comumente utilizada em frases afirmativas no modo indicativo. Veja os exemplos abaixo:</h1>
+
+<br>
+
+
+<h1>a enclise pode ser utilizada em uma variedade de tempos verbais, como presente, pretérito perfeito, pretérito imperfeito, entre outros.
+ <br><br><br>
+- "Preciso lhe falar algo importante."
+ <br><br>
+- "Eles nos encontraram no parque."
+ <br><br>
+- "A professora os elogiou pelo bom desempenho."</h1>
+
+<br>
+
+
+<h1>Em suma, a enclise é uma forma de colocação pronominal que visa manter a coesão e a fluência do discurso. Ao posicionar o pronome oblíquo depois do verbo, ela evita quebras na estrutura da frase, permitindo uma expressão mais natural e agradável ao ouvinte ou leitor.</h1>
+</div>
+
+
+</article>
+
+
+
+
+
+
+
+
+<br>
+
+
+
+
+
+
+
+
+<article>
+
+
+<div class="logo-quiz">
+<h1>𝗤𝘂𝗶𝘇</h1>
+</div>
+
+
+</article>
+
+
+
+
+
+
+
+
+
+
+<article>
+
+
+<div class="quiz-introduçao">
+<h1>Agora vamos ver se você realmente aprendeu com esse quiz!</h1>
+</div>
+
+
+</article>
+
+
+
+
+
+
+<br>
+
+
+
+
+
+
+
+
+
+<article>
+
+
+<div class="C-pergunta-1">
+<h1>𝟭. Qual é a forma correta de colocação pronominal na frase abaixo?
+ <br>
+"Eu lhe darei um presente amanhã."
+ <br><br>
+a) Eu darei-lhe um presente amanhã.
+ <br><br>
+b) Eu lhe darei um presente amanhã.
+ <br><br>
+c) Eu darei um presente a lhe amanhã.
+ <br><br>
+d) Eu darei um presente amanhã-lhe.</h1>
+</div>
+
+
+</article>
+
+
+
+
+
+<br>
+
+
+
+
+
+
+<article>
+  
+  
+<div class="caixinha-de-resposta1">
+
+  <details id="myDetails">
+<summary>Ver resposta</summary>
+
+
+ <h1>b) Eu lhe darei um presente amanhã.</h1>
+
+
+  </details>
+</div>
+  
+  
+</article>
+
+
+
+
+
+
+<br><br>
+
+
+
+
+
+
+
+<article>
+  
+  
+<div class="C-pergunta-2">
+<h1>𝟮. Qual é a forma correta de colocação pronominal na frase abaixo?
+ <br>
+"Amanhã, ____ irei visitar."
+ <br><br>
+a) Proclise
+ <br><br>
+b) Mesoclise
+ <br><br>
+c) Enclise
+ <br><br>
+d) Nenhuma das opções acima</h1>
+</div>
+  
+  
+</article>
+
+
+
+
+
+<br>
+
+
+
+
+
+
+<article>
+
+
+<div class="caixinha-de-resposta2">
+
+  <details id="myDetails">
+<summary>Ver resposta</summary>
+  
+  
+ <h1> c) Enclise.
+  <br><br>
+Portanto, a frase correta seria: "Amanhã, irei visitar-te."</h1>
+  
+
+  </details>
+</div>
+
+
+</article>
+
+
+
+
+
+
+<br><br>
+
+
+
+
+
+
+
+
+<article>
+
+
+<div class="C-pergunta-3">
+<h1>𝟯. Qual é a forma correta de colocação pronominal na frase abaixo?
+ <br>
+"Eu nunca vou me esquecer desse dia."
+ <br><br>
+a) Eu nunca vou esquecer-me desse dia.
+ <br><br>
+b) Eu nunca me vou esquecer desse dia.
+ <br><br>
+c) Eu nunca vou esquecer de mim desse dia.
+ <br><br>
+d) Eu nunca vou esquecer desse dia a mim.</h1>
+</div>
+
+
+</article>
+
+
+
+
+
+<br>
+
+
+
+
+
+
+
+<article>
+
+
+<div class="caixinha-de-resposta3">
+
+  <details id="myDetails">
+<summary>Ver resposta</summary>
+
+
+ <h1> b) Eu nunca me vou esquecer desse dia.</h1>
+  
+ 
+  </details>
+</div>
+
+
+</article>
+
+
+
+
+
+
+<br><br>
+
+
+
+
+
+
+
+
+
+<article>
+
+
+<div class="C-pergunta-4">
+<h1>𝟰. Qual é a forma correta de colocação pronominal na frase abaixo?
+ <br>
+"Amanhã, ____ vou chamar."
+ <br><br>
+a) Proclise
+ <br><br>
+b) Mesoclise
+ <br><br>
+c) Enclise
+ <br><br>
+d) Nenhuma das opções acima.</h1>
+</div>
+
+
+</article>
+
+
+
+
+
+<br>
+
+
+
+
+
+
+
+
+<article>
+
+
+<div class="caixinha-de-resposta4">
+
+  <details id="myDetails">
+ <summary>Ver resposta</summary>    
+
+
+<h1>a) Proclise.
+ <br><br>
+Portanto, a frase correta seria: "Amanhã, vou chamar-te."</h1>
+
+
+  </details>
+</div>
+
+
+</article>
+
+
+
+
+
+
+
+
+<br><br><br><br><br>
+
+
+
+
+
+
+
+
+
+
+
+<article>
+  
+  
+<div class="titulo-aposto">
+<h1>Aposto:</h1>
+</div>
+  
+  
+</article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<article>
+
+
+<div class="texto-aposto">
+<h1>O aposto é uma expressão que tem a finalidade de esclarecer, explicar, resumir ou exemplificar algo já mencionado na frase anteriormente. 
+ <br><br>
+Ele pode ser essencial (quando indispensável para o sentido da frase) ou não essencial (quando não altera o sentido da frase, podendo ser retirado sem prejuízo). 
+ <br><br>
+O aposto, geralmente, é separado por vírgulas, travessões ou parênteses. Veja os exemplos a seguir.</h1>
+</div>
+
+
+</article>
+
+
+
+
+
+<br>
+
+
+
+
+
+
+
+
+
+<article>
+  
+  
+<div class="exemplo-aposto">
+<h1>Exemplo com aposto essencial:
+  <br><br>
+- Meu irmão, o médico, chegou do trabalho. (O aposto "o médico" é essencial para identificar qual irmão está sendo mencionado.)
+ <br><br><br>
+Exemplo com aposto não essencial:
+ <br><br>
+- A cidade de Paris, capital da França, é muito visitada por turistas. (O aposto "capital da França" é opcional e traz uma informação adicional sobre a cidade de Paris.)</h1>
+</div>
+  
+  
+</article>
+
+
+
+
+
+
+
+
+<br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+<article>
+
+
+<div class="logo-quiz-aposto">
+<h1>𝗤𝘂𝗶𝘇</h1>
+</div>
+
+
+</article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<article>
+
+
+<div class="frasesinha-quiz-aposto">
+<h1>Vamos agora pra um quiz pra você se aprendeu mesmo!</h1>
+</div>
+
+
+</article>
+
+
+
+
+
+
+
+
+<br>
+
+
+
+
+
+
+
+
+
+<article>
+  
+  
+<div class="C-pergunta-1">
+<h1>𝟭. Identifique o aposto na seguinte frase: "Meu amigo João, o escritor renomado, lançou um novo livro."
+ <br><br>
+a) Meu amigo João
+ <br><br>
+b) O escritor renomado
+ <br><br>
+c) Lançou um novo livro</h1>
+</div>
+  
+  
+</article>
+
+
+
+
+
+<br>
+
+
+
+
+
+
+
+<article>
+  
+  
+<div class="caixinha-de-resposta1">
+
+
+  <details>
+<summary>Ver resposta</summary>   
+  
+
+ <h1>b) O escritor renomado</h1>
+    
+    
+  </details>
+</div>
+  
+  
+</article>
+
+
+
+
+
+
+
+<br><br>
+
+
+
+
+
+
+
+
+<article>
+  
+  
+<div class="C-pergunta-2">
+<h1>𝟮. Identifique o aposto na seguinte frase: "Maria, minha irmã mais nova, adora música clássica."
+ <br><br>
+a) Maria
+ <br><br>
+b) Minha irmã mais nova
+ <br><br>
+c) Adora música clássica</h1>
+</div>
+  
+  
+</article>
+
+
+
+
+
+<br>
+
+
+
+
+
+
+
+
+<article>
+  
+  
+<div class="caixinha-de-resposta2">
+
+
+  <details>
+<summary>Ver resposta</summary>
+  
+
+  <h1>c) Minha irmã mais nova</h1>
+
+
+  </details>
+</div>
+  
+
+</article>
+
+
+
+
+
+
+
+
+<br><br>
+
+
+
+
+
+
+
+
+
+<article>
+  
+  
+<div class="C-pergunta-3">
+<h1>𝟯. Identifique o aposto na seguinte frase: "A montanha, majestosa e imponente, oferece uma vista deslumbrante."
+ <br><br>
+a) Majestosa e imponente
+ <br><br>
+b) A montanha
+ <br><br>
+c) Oferece uma vista deslumbrante
+</h1>
+</div>
+  
+  
+</article>
+
+
+
+
+
+<br>
+
+
+
+
+
+
+
+
+
+<article>
+  
+  
+<div class="caixinha-de-resposta3">
+
+
+  <details>
+<summary>Ver resposta</summary>
+    
+    
+ <h1>a) Majestosa e imponente</h1> 
+    
+    
+  </details>
+</div>
+  
+  
+</article>
+
+
+
+
+
+
+
+
+<br><br>
+
+
+
+
+
+
+
+
+
+
+<article>
+  
+  
+<div class="C-pergunta-4">
+<h1>𝟰. Encontre o aposto na frase abaixo: "Pedro, meu irmão mais velho, é um engenheiro muito competente."
+ <br><br>
+a) Pedro
+ <br><br>
+b) É um engenheiro muito competente
+ <br><br>
+c) meu irmão mais velho</h1>
+</div>
+  
+  
+</article>
+
+
+
+
+
+<br>
+
+
+
+
+
+
+
+
+
+
+<article>
+  
+  
+<div class="caixinha-de-resposta4">
+
+
+  <details>
+<summary>Ver resposta</summary>
+
+
+  <h1>c) meu irmão mais velho</h1>
+
+
+  </details>
+</div>
+  
+  
+</article>
+
+
+
+
+
+
+
+<br><br>
+
+
+
+
+
+
+
+
+
+<article>
+  
+  
+<div class="final-da-pagina">
+<h1>Caro visitante,
+ <br><br>
+Chegamos ao fim deste site de estudos sobre a língua portuguesa. Espero que tenha encontrado as informações que buscava.
+ <br><br>
+Agradeço por sua visita e por compartilhar essa jornada conosco. Desejo sucesso em seus estudos e em suas futuras empreitadas.
+ <br><br>
+Até a próxima!</h1>
+</div>
+  
+  
+</article>
+
+
+
+
+
+
+
+
+
+
+</fieldset>
+
+
+
+
+
+
+
+
+
+
+<article>
+
+
+<a href="https://hotmart.com/pt-br/marketplace/produtos/up-como-render-melhor-nos-estudos/G72682343H?sck=HOTMART_SITE&hotfeature=33">
+
+<div class="anuncio1">
+<img src="https://static-media.hotmart.com/6xrE613s2Vjwwamc2EuGV6ncLRg=/300x300/smart/filters:format(webp):background_color(white)/hotmart/product_pictures/c31ac351-f3a2-450a-9ab2-52efd77b6588/19.png?w=920" heigth="100" width="300"></img>
+
+</a>
+
+
+
+</article>
+
+
+
+
+
+<article>
+
+
+<div class="publicidade1">
+<h1>PUBLICIDADE</h1>
+</div>
+
+
+</article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<article>
+
+
+<a href="https://hotmart.com/pt-br/marketplace/produtos/curso-de-ingles-online-metodo-alternativo/U67741902Y?sck=HOTMART_SITE&search=602e2cff-6173-4d1d-aba1-7d1b73a47580&hotfeature=33">
+
+<div class="anuncio2">
+<img src="https://static-media.hotmart.com/PmwoJkOms6AITB7GMEHKEQ9k8KY=/300x300/smart/filters:format(webp):background_color(white)/hotmart/product_pictures/1e9f9af8-e1c9-4c18-a2cd-dac8024bfc7d/CopiadeCopiadecilios1.png?w=920"></img>
+</div>
+
+</a>
+
+
+</article>
+
+
+
+
+
+<article>
+
+
+<div class="publicidade2">
+<h1>PUBLICIDADE</h1>
+</div>
+
+
+</article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<article>
+
+
+<a href="https://hotmart.com/pt-br/marketplace/produtos/metodo-jovem-milionario-h8l0a/W81519007R?sck=HOTMART_SITE&search=0938c19b-b1ca-4307-9a9a-f2bf1fbcdf23&hotfeature=33"></a>
+
+<div class="anuncio3">
+<img src="https://static-media.hotmart.com/V6eGyyG0OhZyfEZ5AP-83MO9-pc=/300x300/smart/filters:format(webp):background_color(white)/hotmart/product_pictures/63469308-11ff-44c7-b718-d7c0d5e830f3/Capa.jpg?w=920"></img> 
+</div>
+
+</a>
+
+
+
+</article>
+
+
+
+
+
+
+<article>
+
+
+<div class="publicidade3">
+<h1>PUBLICIDADE</h1>
+</div>
+
+
+</article>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+<article>
+
+
+<a href="https://hotmart.com/pt-br/marketplace/produtos/a-estrategia-da-criatividade/W45359212O?sck=HOTMART_SITE&search=fd53c283-bc53-47e8-b04f-f6323e4e173c&hotfeature=33">
+
+<div class="anuncio4">
+<img src="https://static-media.hotmart.com/tZqEI6OXwtNUD8dcaCHElnTE74I=/300x300/smart/filters:format(webp):background_color(white)/hotmart/product_contents/31463624-726d-4d73-b1d2-b54424c2c97c/Aestratgiadacriatividade1.png?w=920"></img>
+</div>
+
+
+</a>
+
+
+</article>
+
+
+
+
+
+
+
+<article>
+
+
+<div class="publicidade4">
+<h1>PUBLICIDADE</h1>
+</div>
+
+</article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<article>
+
+
+
+<div class="anuncio5">
+<img src="https://static-media.hotmart.com/z7Bt3rEH7lZ5LQtWdwq2Pb0_Ihg=/300x300/smart/filters:format(webp):background_color(white)/hotmart/product_pictures/12bde925-95b9-46ce-9ce4-2d6e144b1729/capa52010.png?w=920"></img>
+</div>
+
+
+</a>
+
+
+</article>
+
+
+
+
+
+
+
+<article>
+
+
+<div class="publicidade5">
+<h1>PUBLICIDADE</h1>
+</div>
+
+</article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+
+
+
+
+
+
+
+
+
+
+<footer>
+  
+  
+  
+  
+
+
+
+<br>
+
+
+
+
+
+
+
+
+
+<article>
+  
+  
+<div class="logo-colabora">
+<h1>Colaboradores:</h1> 
+</div>  
+
+  
+</article>
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<article>
+  
+  
+<div class="colaborador-1">
+<img src="https://media.istockphoto.com/id/1251200947/pt/vetorial/cute-cartoon-alligator.jpg?s=170667a&w=0&k=20&c=p7fmx8Mpm0O_c4V01w05WInp6QBG_EyDzOyUTAE4CdY=" height="30" width="30"></img>
+
+<h1>Enzo</h1>
+</div>
+    
+    
+</article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<article>
+  
+  
+<div class="colaborador-2">
+<img src="https://img.freepik.com/premium-vector/cute-octopus-cartoon-vector_9845-563.jpg?w=2000" height="30" width="30"></img>
+<h1>Andreza</h1>
+</div>
+  
+  
+</article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<article>
+  
+  
+<div class="colaborador-3">
+<img src="https://img.freepik.com/free-vector/cute-bird-waving-hand-with-pilot-hat-cartoon-vector-icon-illustration-animal-nature-icon-isolated_138676-4688.jpg" height="30" width="30"></img>  
+
+<h1>Cauã</h1>
+</div>
+    
+    
+</article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<article>
+  
+  
+<div class="colaborador-4">
+<img src="https://img.freepik.com/free-vector/cute-cat-girl-sitting-cartoon-vector-icon-illustration-animal-nature-icon-concept-isolated-premium_138676-4608.jpg?w=2000" height="30" width="30"></img>   
+
+<h1>Evelyn</h1>
+</div>
+    
+  
+</article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<article>
+
+
+<div class="logo-alunos-unidos">
+<h1>Alunos Unidos</h1>
+</div>
+
+
+</article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="Fim">
+<h1>© Copyright 2023 - Todos os direitos reservados
+           <br><br>
+    Políticas de privacidade 
+           <br><br>
+     Termos de uso
+         <br><br> 
+    Contato
+           <br>
+</h1> 
+</div>
+
+
+</article>
+
+.
+
+
+
+
+
+
+
+
+
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+ </body>
+ </html>
